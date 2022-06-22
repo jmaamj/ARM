@@ -19,7 +19,7 @@ steps:
     resourceGroupName: 'Paine'
     location: 'Central US'
     templateLocation: 'URL of the file'
-    csmFileLink: 'https://raw.githubusercontent.com/Azure/azure-docs-json-samples/master/get-started-deployment/linked-template/azuredeploy.json'
+    csmFileLink: 'https://raw.githubusercontent.com/jmaamj/ARM/main/azuredeploy.json'
     overrideParameters: '-projectName jma6789'
     deploymentMode: 'Incremental'
     deploymentName: 'DeployPipelineTemplate'
