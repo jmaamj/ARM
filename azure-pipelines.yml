@@ -32,10 +32,10 @@ steps:
     artifact: 'Candy'
     publishLocation: 'pipeline'
 
+
 - task: ArchiveFiles@2
+  displayName: 'Cocoa Puff'
   inputs:
-    rootFolderOrFile: '$(Pipeline.Workspace)/_jmaamj.ARM/Candy/s'
+    rootFolderOrFile: '$(System.DefaultWorkingDirectory)/_jmaamj.ARM/Candy/s'
     includeRootFolder: false
-    archiveType: 'zip'
-    archiveFile: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip'
-    replaceExistingArchive: true
+
