@@ -23,3 +23,9 @@ steps:
     overrideParameters: '-projectName jma6789'
     deploymentMode: 'Incremental'
     deploymentName: 'DeployPipelineTemplate'
+
+- task: PublishPipelineArtifact@1
+  inputs:
+    targetPath: '$(Pipeline.Workspace)'
+    artifact: 'Candy'
+    publishLocation: 'pipeline'
