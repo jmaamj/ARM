@@ -17,7 +17,7 @@ steps:
     subscriptionId: '590eb0b1-e900-44ae-96cc-b4154b5410e4'
     action: 'Create Or Update Resource Group'
     resourceGroupName: 'Paine'
-    location: 'Central US'
+    location: 'East US'
     templateLocation: 'URL of the file'
     csmFileLink: 'https://raw.githubusercontent.com/jmaamj/ARM/main/azuredeploy.json'
     overrideParameters: '-projectName jma6789'
