@@ -37,5 +37,5 @@ steps:
   displayName: 'Cocoa Puff'
   inputs:
     rootFolderOrFile: '$(System.DefaultWorkingDirectory)/_jmaamj.ARM/Candy/s'
-    includeRootFolder: false
+    includeRootFolder: True
 
